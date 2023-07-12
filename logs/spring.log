@@ -1,0 +1,64 @@
+2023-07-13 01:21:18.368  INFO 10508 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 11.0.18 on DESKTOP-JE0E8VT with PID 10508 (C:\Users\mhmad\OneDrive\Desktop\Lavalink\Lavalink.jar started by mhmad in C:\Users\mhmad\OneDrive\Desktop\Lavalink)
+2023-07-13 01:21:18.395  INFO 10508 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-07-13 01:21:19.560  INFO 10508 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.044 seconds (JVM running for 2.843)
+2023-07-13 01:21:19.570  INFO 10508 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/freyacodes/Lavalink/issues/295
+2023-07-13 01:21:19.643  INFO 10508 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.7.5
+	Build time:     06.03.2023 12:02:05 UTC
+	Branch          HEAD
+	Commit:         c00286d
+	Commit time:    06.03.2023 11:59:46 UTC
+	JVM:            11.0.18
+	Lavaplayer      1.4.0-original
+
+2023-07-13 01:21:19.651  INFO 10508 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-07-13 01:21:21.443  WARN 10508 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-07-13 01:21:21.470  INFO 10508 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-07-13 01:21:21.471  INFO 10508 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1815 ms
+2023-07-13 01:21:21.616  WARN 10508 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2023-07-13 01:21:22.874  INFO 10508 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2023-07-13 01:21:23.676  INFO 10508 --- [main] lavalink.server.config.KoeConfiguration  : OS: WINDOWS, Arch: X86_64
+2023-07-13 01:21:23.677  INFO 10508 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2023-07-13 01:21:23.682  INFO 10508 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2023-07-13 01:21:23.701  INFO 10508 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2023-07-13 01:21:24.019  INFO 10508 --- [main] io.undertow                              : starting server: Undertow - 2.2.16.Final
+2023-07-13 01:21:24.031  INFO 10508 --- [main] org.xnio                                 : XNIO version 3.8.6.Final
+2023-07-13 01:21:24.046  INFO 10508 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.6.Final
+2023-07-13 01:21:24.173  INFO 10508 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2023-07-13 01:21:24.214  INFO 10508 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 2333 (http)
+2023-07-13 01:21:24.219  INFO 10508 --- [main] lavalink.server.Launcher                 : Started Launcher in 4.643 seconds (JVM running for 7.502)
+2023-07-13 01:21:24.220  INFO 10508 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2023-07-13 01:21:32.119  INFO 10508 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-13 01:21:32.120  INFO 10508 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-07-13 01:21:32.122  INFO 10508 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-07-13 01:21:32.146  INFO 10508 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:61423
+2023-07-13 01:21:32.185  INFO 10508 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /v3/websocket, client=127.0.0.1
+2023-07-13 01:21:32.400  INFO 10508 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Voicelink/1.0
+2023-07-13 01:21:51.774  INFO 10508 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:aysen"
+2023-07-13 01:21:52.322  INFO 10508 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: aysen
+2023-07-13 01:21:52.407  INFO 10508 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:aysen, client=127.0.0.1
+2023-07-13 01:21:52.933  WARN 10508 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : YouTube auth tokens can't be retrieved because email and password is not set in YoutubeAudioSourceManager, age restricted videos will throw exceptions.
+2023-07-13 01:21:53.004  INFO 10508 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/dkgsu7u7xbpwhdm0/players/1105236985154646046, client=127.0.0.1, payload={"voice": {"token": "ac2f788f2f3811a5", "endpoint": "frankfurt1059.discord.media:443", "sessionId": "da3b5fb7b7090485f2a84da79364fd79"}}
+2023-07-13 01:21:53.004  INFO 10508 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/dkgsu7u7xbpwhdm0/players/1105236985154646046, client=127.0.0.1, payload={"encodedTrack": "QAAAegIAF09yaGFuIEdlbmNlYmF5IC0gQXnFn2VuAAlFbGEgxLBwZWsAAAAAAAUM+AALRWJWZzVQbzg1aGMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1FYlZnNVBvODVoYwAHeW91dHViZQAAAAAAAAAA", "position": "0"}
+2023-07-13 01:21:53.201  INFO 10508 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is null).
+2023-07-13 01:21:53.277  INFO 10508 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtRVkk2U3hXN0RTMCiQ67ylBg%3D%3D, next update will be after 600 seconds.
+2023-07-13 01:24:37.326  INFO 10508 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:61423 -- CloseStatus[code=1006, reason=]
+2023-07-13 01:24:37.328  INFO 10508 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 1 playing players.
+2023-07-13 01:25:06.289  INFO 10508 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:62374
+2023-07-13 01:25:06.291  INFO 10508 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/websocket, client=127.0.0.1
+2023-07-13 01:25:06.293  INFO 10508 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Voicelink/1.0
+2023-07-13 01:25:31.712  INFO 10508 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:aysen"
+2023-07-13 01:25:32.038  INFO 10508 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/gndfo36wt13363te/players/1105236985154646046, client=127.0.0.1, payload={"voice": {"token": "ac2f788f2f3811a5", "endpoint": "frankfurt1059.discord.media:443", "sessionId": "5663bcce5c3daf97263b6d1d3689c1cb"}}
+2023-07-13 01:25:32.116  INFO 10508 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: aysen
+2023-07-13 01:25:32.120  INFO 10508 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /v3/loadtracks?identifier=ytsearch:aysen, client=127.0.0.1
+2023-07-13 01:25:32.674  INFO 10508 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/gndfo36wt13363te/players/1105236985154646046, client=127.0.0.1, payload={"encodedTrack": "QAAAegIAF09yaGFuIEdlbmNlYmF5IC0gQXnFn2VuAAlFbGEgxLBwZWsAAAAAAAUM+AALRWJWZzVQbzg1aGMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1FYlZnNVBvODVoYwAHeW91dHViZQAAAAAAAAAA", "position": "0"}
+2023-07-13 01:25:56.714  INFO 10508 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/gndfo36wt13363te/players/1105236985154646046, client=127.0.0.1, payload={"paused": true}
+2023-07-13 01:25:57.818  INFO 10508 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : PATCH /v3/sessions/gndfo36wt13363te/players/1105236985154646046, client=127.0.0.1, payload={"paused": false}
